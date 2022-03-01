@@ -1,0 +1,62 @@
+/*https://www.youtube.com/watch?v=PwWHL3RyQgk*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li, a, button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-decoration: none; /*Tira as linhas embaixo das palavras na lista*/
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(17, 138, 87);
+}
+
+h1{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navegação{
+    list-style: none;
+}
+
+.navegação li{ /*Seleciona somente os li do navegação*/
+    display: inline-block; /*Deixa os links alinhados horizontalmente*/
+    padding:10px;
+}
+
+.navegação li a{
+    transition: all 0.3s ease 0s; /*https://blog.betrybe.com/css/css-transition/*/
+}
+
+.navegação li a:hover{ /*Mudanças quando o mouse está em cima*/
+    color: rgb(255, 255, 255);
+}
+
+button{ /*Mudando o estilo do botão*/
+    padding: 10px;
+    margin-left: 10px;
+    background-color: rgb(23, 140, 194);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; /*O cursor do mouse vira pointer quando passa em cima*/
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    color: rgb(255, 255, 255);
+}
+
